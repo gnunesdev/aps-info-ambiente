@@ -1,0 +1,12 @@
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\bin\Debug\netstandard2.0\InfoAmbiente.deps.json
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\bin\Debug\netstandard2.0\InfoAmbiente.dll
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\bin\Debug\netstandard2.0\InfoAmbiente.pdb
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\InfoAmbiente.csproj.CoreCompileInputs.cache
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\InfoAmbiente.AssemblyInfoInputs.cache
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\InfoAmbiente.AssemblyInfo.cs
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\InfoAmbiente.dll
+C:\Projetos\InfoAmbiente\InfoAmbiente\InfoAmbiente\obj\Debug\netstandard2.0\InfoAmbiente.pdb

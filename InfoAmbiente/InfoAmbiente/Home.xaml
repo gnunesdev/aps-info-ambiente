@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cardView="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
+             x:Class="InfoAmbiente.Home"
+             Title="InfoAmbiente - MMA"
+             NavigationPage.HasBackButton="False">
+
+    <StackLayout BackgroundColor="Black">
+        <Image Source="globinho.png"
+               Aspect="AspectFit"
+               HorizontalOptions="Center"
+               Margin="0,5,0,0"/>
+
+        <cardView:CardView x:Name="cvMapaDesmatamento" CardViewHeightRequest="75" CardViewOutlineColor="Blue" CardViewOutlineColorThickness="3">
+            <cardView:CardView.CardViewContent>
+                <StackLayout  BackgroundColor="SkyBlue">
+                    <Label Text="Mapa de Desmatamento   "
+                           FontSize="30"
+                           TextColor="White"/>
+                </StackLayout>
+            </cardView:CardView.CardViewContent>
+        </cardView:CardView>
+
+        <cardView:CardView x:Name="cvReservas" CardViewHeightRequest="75" CardViewOutlineColor="Blue" CardViewOutlineColorThickness="3">
+            <cardView:CardView.CardViewContent>
+                <StackLayout  BackgroundColor="SkyBlue">
+                    <Label Text="Reservas Índigenas            "
+                           FontSize="30"
+                           TextColor="White"/>
+                </StackLayout>
+            </cardView:CardView.CardViewContent>
+        </cardView:CardView>
+
+        <cardView:CardView x:Name="cvInformacoes" CardViewHeightRequest="75" CardViewOutlineColor="Blue" CardViewOutlineColorThickness="3">
+            <cardView:CardView.CardViewContent>
+                <StackLayout  BackgroundColor="SkyBlue">
+                    <Label Text="Informações Sustentáveis"
+                           FontSize="30"
+                           TextColor="White"/>
+                </StackLayout>
+            </cardView:CardView.CardViewContent>
+        </cardView:CardView>
+
+        <cardView:CardView x:Name="cvPropAcusadas" CardViewHeightRequest="75" CardViewOutlineColor="Green" CardViewOutlineColorThickness="3">
+            <cardView:CardView.CardViewContent>
+                <StackLayout  BackgroundColor="LightGreen">
+                    <Label Text="Propriedades Rurais Acusadas    "
+                           FontSize="25"
+                           TextColor="White"/>
+                </StackLayout>
+            </cardView:CardView.CardViewContent>
+        </cardView:CardView>
+
+        <cardView:CardView x:Name="cvPropAbsolvidas" CardViewHeightRequest="75" CardViewOutlineColor="Green" CardViewOutlineColorThickness="3">
+            <cardView:CardView.CardViewContent>
+                <StackLayout  BackgroundColor="LightGreen">
+                    <Label Text="Propiedades Rurais Absolvidas   "
+                           FontSize="25"
+                           TextColor="White"/>
+                </StackLayout>
+            </cardView:CardView.CardViewContent>
+        </cardView:CardView>
+
+        <cardView:CardView x:Name="cvPropInterditadas" CardViewHeightRequest="75" CardViewOutlineColor="Green" CardViewOutlineColorThickness="3">
+            <cardView:CardView.CardViewContent>
+                <StackLayout  BackgroundColor="LightGreen">
+                    <Label Text="Propriedades Rurais Interditadas"
+                           FontSize="25"
+                           TextColor="White"/>
+                </StackLayout>
+            </cardView:CardView.CardViewContent>
+        </cardView:CardView>
+    </StackLayout>
+</ContentPage>
